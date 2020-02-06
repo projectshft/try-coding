@@ -170,55 +170,67 @@ _Note_: Combining CSS selectors also affects the specificity of a property. For 
 
 ---
 
-## 6. Partner Exercise
+## 2. Exercise
 
-With your partner, use the our "#DURMLIFE" project to complete the following exercises. Write the necessary CSS inside of your `style.css` file. Here is the HTML you should have so far:
+Use the our "#DURMLIFE" project to complete the following exercises. Write the necessary CSS inside the `css` section in Codepen. Here is the HTML you should have so far:
 
 ```html
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Secret Tel Aviv</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#food">Food</a></li>
-        <li><a href="#drinks">Drinks</a></li>
-        <li><a href="#jobs">Jobs</a></li>
-        <li><a href="#apartments">Apartments</a></li>
-      </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="#food">Food</a></li>
+      <li><a href="#drinks">Drinks</a></li>
+      <li><a href="#jobs">Jobs</a></li>
+      <li><a href="#apartments">Apartments</a></li>
+    </ul>
+  </nav>
 
-    <section class="hero">
-      <h1 class="hero-title">#DURMLIFE</h1>
-    </section>
-  </body>
-</html>
+  <section class="hero">
+    <h1 class="hero-title">#DURMLIFE</h1>
+  </section>
 ```
 
 ### Exercise 1
 
-Give the `body` a background color of `#ddd` and a margin of 0 (this will help us reset some of the browsers default margin styles that we don't want)
+Give the `body` a background color of `#ddd` and a margin of 0 (this will help us reset some of the browsers default margin styles that we don't want).
+
+```CSS
+body {
+  background-color: #ddd
+}
+```
+
+Note: In codepen, the "`body`" is implied but hidden. It technically wraps all of our HTML above.
 
 ### Exercise 2
 
 Give the `nav` element a background color of #087d8e.
 
+```CSS
+nav {
+  background-color: #087d8e;
+}
+```
+
 ### Exercise 3
 
 Give the "hero-title" a font size of 50px.
 
-### Exercise 4
+```CSS
+.hero-title {
+  font-size: 50px;
+}
+```
+
+### Exercise 4 (on your own!)
 
 Use a pseudo selector to make the menu items change color on hover.
 
 ---
 
-## 7. Nav Styling
+## 3. Nav Styling
 
-Before we move on, let's style the nav a bit. Add the following to your css file:
+Before we move on, let's style the nav a bit. Add the following to your css:
 
 ```CSS
 nav li {
@@ -228,6 +240,7 @@ nav li {
 nav {
   background-color: #087d8e;
 }
+
 nav li a {
   line-height: 50px;
   text-decoration: none;
@@ -243,7 +256,7 @@ This CSS is fairly self-explanatory, but if you don't understand any of it then 
 
 ---
 
-## 8. Positioning
+## 4. Positioning
 
 The `position` attribute is one of the more difficult ones to understand in CSS. We'll utilize it to keep our menu fixed to the top of our viewport as we scroll down. But before we do that, let's look at the different "positions" in CSS.
 
@@ -284,39 +297,7 @@ nav ul {
 }
 ```
 
-## 9. Web Fonts
-
-Our nav is looking much better but let's try to improve the font by utilizing google fonts.
-
-Go to [https://fonts.google.com/](https://fonts.google.com/) and search for "Open Sans". When you find it, add it and then at the bottom expand the bar that will now say "1 Family Selected".
-
-Copy/paste the "standard" link tag (under the Standard tab) into the head of your HTML file above where you've included your CSS file.
-
-The head of your `index.html` should look like this:
-
-```html
-<head>
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans"
-    rel="stylesheet"
-    type="text/css"
-  />
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <title>durmlife</title>
-</head>
-```
-
-Finally add the following to your CSS properties for nav li a:
-
-```
-font-family: 'open sans', sans-serif;
-```
-
-The second font above (sans-serif) will be used if the browser can't find "open sans".
-
----
-
-## 10. Hero Section
+## 5. Hero Section
 
 Let's get our project looking like the "finished" picture.
 
@@ -333,10 +314,6 @@ First, let's get our main title centered up. Change the css for your `hero-title
 }
 ```
 
-Now we need to grab the right font. On your own, go to google and find the "Kadwa" font. Use it for this title and your page should look like this:
-
-![font](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2017-12-12-at-1.32.30-PM.png)
-
 ### Background Image
 
 For our large image, we'll use the `background-image` property. Add the following CSS to your page:
@@ -350,9 +327,3 @@ For our large image, we'll use the `background-image` property. Add the followin
 ```
 
 A background-image can have `background-repeat`, `background-attachment` and `background-position` properties. We defined all of those, but with shorthand. In other words, we didn't want our image to repeat, we want it centered and fixed. In addition, we used `background-size: cover` to be sure that the entire image is displayed.
-
----
-
-## Conclusion
-
-Hopefully this was a review of concepts you already know. We'll continue our #DURMLIFE project in future lessons.
