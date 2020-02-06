@@ -90,6 +90,8 @@ For example, the following HTML created the following image:
 
 With that code alone, we have the basics structures of a simple website. But let's dive a little deeper into learning what all of those characters above actually mean and do.
 
+---
+
 ## 1. Defining HTML
 
 HTML is made of "tags", which create "elements". The following example is a "paragraph" element made up of an "opening tag" and a "closing tag":
