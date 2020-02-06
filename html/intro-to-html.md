@@ -208,36 +208,12 @@ Today we'll start building a simple website using common HTML. It will be called
 
 ### Setup
 
-First let's do some set up. Create a new folder called `durmlife` and inside of it create an `index.html` file and a `style.css` file. This site will be very simple and these are the only folders we'll need.
+Make sure your codepen is blank.
 
-Inside of your `index.html` file add the following boiler-plate code (pro-tip: if you open a file in atom with the `.html` extension and write `html` then hit tab, all of this will autofill).
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-  </head>
-  <body></body>
-</html>
-```
-
-### Nav
-
-The first thing we want to build is our top navigation. For that, we can use a `nav` element. A nav works like any other "div" (generic divider element), but it's used specifically for the page's navigation. Why we'd use this over a normal `div` is a question of semantics. Add a `nav` inside of your `body`:
+The first thing we want to build is our top navigation. For that, we can use a `nav` element. A nav works like any other "div" (generic divider element), but it's used specifically for the page's navigation. Why we'd use this over a normal `div` is a question of semantics. Add a `nav` now:
 
 ```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-  </head>
-  <body>
-    <nav></nav>
-  </body>
-</html>
+  <nav></nav>
 ```
 
 Now inside of our `nav`, we'll add our menu. We'll use an unordered-list for this:
@@ -253,7 +229,7 @@ Now inside of our `nav`, we'll add our menu. We'll use an unordered-list for thi
 </nav>
 ```
 
-Stop for a second and discuss the above with your partner if either of you doesn't know what's going on.
+Let's pause and make sure we understand what's going on so far.
 
 ### Sections
 
@@ -262,10 +238,21 @@ We'll add some style later. Let's move on. Below the "nav" we see a large area w
 Add the following HTML below your `nav` as a sibling:
 
 ```html
+<nav>
+  <ul>
+    <li><a href="#food">Food</a></li>
+    <li><a href="#drinks">Drinks</a></li>
+    <li><a href="#jobs">Jobs</a></li>
+    <li><a href="#apartments">Apartments</a></li>
+  </ul>
+</nav>
+
 <section class="hero">
   <h1 class="hero-title">#DURMLIFE</h1>
 </section>
 ```
+
+## Review
 
 
 
