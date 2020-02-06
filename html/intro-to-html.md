@@ -253,14 +253,8 @@ Add the following HTML below your `nav` as a sibling:
 ```
 
 ## Review
+Okay, let's review a few concepts before we move on to CSS:
 
-
-
-
-
-
-
-[FOR INTRO TO CSS]
-- Utilize class, id, inline and pseudo CSS selectors.
-- Explain CSS specificity.
-- Describe the different CSS "positions".
+- What is the purpose of HTML?
+- What does HTML stand for?
+- What is the difference between and HTML "tag", "element" and "attribute"?
