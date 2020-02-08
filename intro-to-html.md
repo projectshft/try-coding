@@ -71,7 +71,6 @@ For example, the following HTML created the following image:
     <meta charset="utf-8">
     <title>My Website</title>
   </head>
-
   <body>
     <h1>This is my website</h1>
     <p>This is some text about my website.</p>
@@ -82,7 +81,6 @@ For example, the following HTML created the following image:
       <li><a href="portfolio">Portflio</a></li>
     </ul>
   </body>
-
 </html>
 ```
 
@@ -213,7 +211,7 @@ Make sure your codepen is blank.
 The first thing we want to build is our top navigation. For that, we can use a `nav` element. A nav works like any other "div" (generic divider element), but it's used specifically for the page's navigation. Why we'd use this over a normal `div` is a question of semantics. Add a `nav` now:
 
 ```html
-  <nav></nav>
+<nav></nav>
 ```
 
 Now inside of our `nav`, we'll add our menu. We'll use an unordered-list for this:

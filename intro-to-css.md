@@ -175,19 +175,18 @@ _Note_: Combining CSS selectors also affects the specificity of a property. For 
 Use the our "#DURMLIFE" project to complete the following exercises. Write the necessary CSS inside the `css` section in Codepen. Here is the HTML you should have so far:
 
 ```html
-<!DOCTYPE html>
-  <nav>
-    <ul>
-      <li><a href="#food">Food</a></li>
-      <li><a href="#drinks">Drinks</a></li>
-      <li><a href="#jobs">Jobs</a></li>
-      <li><a href="#apartments">Apartments</a></li>
-    </ul>
-  </nav>
+<nav>
+  <ul>
+    <li><a href="#food">Food</a></li>
+    <li><a href="#drinks">Drinks</a></li>
+    <li><a href="#jobs">Jobs</a></li>
+    <li><a href="#apartments">Apartments</a></li>
+  </ul>
+</nav>
 
-  <section class="hero">
-    <h1 class="hero-title">#DURMLIFE</h1>
-  </section>
+<section class="hero">
+  <h1 class="hero-title">#DURMLIFE</h1>
+</section>
 ```
 
 ### Exercise 1
@@ -297,7 +296,31 @@ nav ul {
 }
 ```
 
-## 5. Hero Section
+## 5. Web Fonts
+We won't go into great detail here, but we'll want to be able to add some cool fonts to this project. We'll do this using Google Fonts. In Codepen, it will look a bit different.
+
+First, click the gear icon next to the HTML panel in Codepen:
+
+![img](https://www.projectshift.io/wp-content/uploads/2020/02/Screen-Shot-2020-02-08-at-6.12.21-AM.png)
+
+Next, inside the text panel called "`Stuff for <head>`", paste the following:
+
+```HTML
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+<link href='https://fonts.googleapis.com/css?family=Kadwa' rel='stylesheet' type='text/css'>
+```
+
+And now, our font has been loaded!
+
+To use it on our menu, add the following style to your CSS:
+
+```CSS
+nav li a {
+  font-family: 'open sans', sans-serif;
+}
+```
+
+## 6. Hero Section
 
 Let's get our project looking like the "finished" picture.
 
@@ -309,6 +332,7 @@ First, let's get our main title centered up. Change the css for your `hero-title
 .hero-title {
   padding-top: 300px;
   color: #fff;
+  font-family: 'Kadwa', serif;
   font-size: 50px;
   text-align: center;
 }
@@ -327,3 +351,6 @@ For our large image, we'll use the `background-image` property. Add the followin
 ```
 
 A background-image can have `background-repeat`, `background-attachment` and `background-position` properties. We defined all of those, but with shorthand. In other words, we didn't want our image to repeat, we want it centered and fixed. In addition, we used `background-size: cover` to be sure that the entire image is displayed.
+
+### Conclusion
+Okay, so this isn't a _complete_ website, but we're only scratching the surface on HTML and CSS today! This is a good enough foundation that we won't be completely lost when we build our Star Wars app this afternoon.
