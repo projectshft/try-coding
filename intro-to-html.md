@@ -14,7 +14,7 @@ For simplicity sake, we're going to be using [codepen.io](codepen.io). Navigate 
 
 Notice that we have 3 different text windows and screen to show the results below:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.01.36-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.01.36-PM.png)
 
 Inside these text windows we can write HTML, CSS and JavaScript and see the results (as we would in a browser), in the window at the bottom. Let's give it a shot.
 
@@ -26,7 +26,7 @@ Inside the HTML window write:
 
 And you should see:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.03.01-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.03.01-PM.png)
 
 Great! We've just written some HTML. While we're here, let's write some CSS and JavaScript.
 
@@ -41,7 +41,7 @@ h1 {
 
 And you should see:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.05.39-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.05.39-PM.png)
 
 And finally in the JavaScript window write:
 
@@ -51,7 +51,7 @@ alert('hello world')
 
 And you should see:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.06.42-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.06.42-PM.png)
 
 Cool! You can erase everything you have so far and we'll dive into some basics on HTML.
 
@@ -84,7 +84,7 @@ For example, the following HTML created the following image:
 </html>
 ```
 
-![img](https://www.projectshift.io/wp-content/uploads/2019/11/Screen-Shot-2019-11-04-at-3.24.14-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2019/11/Screen-Shot-2019-11-04-at-3.24.14-PM.png)
 
 With that code alone, we have the basics structures of a simple website. But let's dive a little deeper into learning what all of those characters above actually mean and do.
 
@@ -94,8 +94,8 @@ With that code alone, we have the basics structures of a simple website. But let
 
 HTML is made of "tags", which create "elements". The following example is a "paragraph" element made up of an "opening tag" and a "closing tag":
 
-![p](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.18.12-PM.png)
-![p1](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.18.29-PM.png)
+![p](https://www.projectshift.info/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.18.12-PM.png)
+![p1](https://www.projectshift.info/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.18.29-PM.png)
 
 When we put the tags together with some text in the middle, we get our element:
 
@@ -109,7 +109,7 @@ When we put the tags together with some text in the middle, we get our element:
 
 How we organize our HTML and its hierarchy depends on the format of our page. In essence, different HTML tags create HTML elements and these HTML elements have certain default CSS styles that represent how they look and behave. These HTML elements are represented by "boxes" (we'll review the CSS Box Model soon).
 
-![box](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.29.36-PM.png)
+![box](https://www.projectshift.info/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-1.29.36-PM.png)
 
 This above image is represented by the code below:
 
@@ -164,7 +164,7 @@ Notice that `to be bold` doesn't start on a new line.
 
 Also from MDN, "Elements in HTML have attributes; these are additional values that configure the elements or adjust their behavior in various ways to meet the criteria the users want."
 
-![attr](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-2.30.38-PM.png)
+![attr](https://www.projectshift.info/wp-content/uploads/2017/12/Screen-Shot-2016-02-25-at-2.30.38-PM.png)
 
 This should mostly be review, but let's look at some common attributes.
 
@@ -202,7 +202,7 @@ Some attributes are specific to certain elements. For example, an `img` element 
 
 Today we'll start building a simple website using common HTML. It will be called "#DURMLIFE" and will be all about Durham.
 
-![durm](https://www.projectshift.io/wp-content/uploads/2017/12/Screen-Shot-2017-12-12-at-8.26.33-AM.png)
+![durm](https://www.projectshift.info/wp-content/uploads/2017/12/Screen-Shot-2017-12-12-at-8.26.33-AM.png)
 
 ### Setup
 

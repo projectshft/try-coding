@@ -3,7 +3,7 @@
 ## Introduction
 Here's what we'll be building:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.08.35-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.08.35-PM.png)
 
 Essentially, it's a small web application built using the [Star Wars API](https://swapi.co/). This document will help you build a limited version of this application from scratch and will challenge you at the end to take it a couple steps further. For now, we'll be able to search SWAPI for `people` and `starships` to learn all kinds of useless and nerdy facts.
 
@@ -13,7 +13,7 @@ For simplicity sake, we're going to be using [codepen.io](codepen.io) again. Nav
 ## Planning out the App
 If we revisit our final product screen shot...
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.08.35-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.08.35-PM.png)
 
 ...we'll recall the we'll want data from the API (Application Programming Interface) as it relates to `people` and `starships`. We can figure out how to access this data (as with most public API's) by visiting their website and reading their documentation.
 
@@ -21,7 +21,7 @@ Navigate to this url: [https://swapi.co/documentation](https://swapi.co/document
 
 On the navigation, there is a menu item for "Searching", click it!
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.10.28-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.10.28-PM.png)
 
 Right off the bat, we have an example how to get data with this URL:
 
@@ -31,7 +31,7 @@ https://swapi.co/api/people/?search=r2
 
 Copy that URL and past it inside of a new browser window. You should see this:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.12.53-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.12.53-PM.png)
 
 Without going too in depth with this, we just did a "GET" request to retrieve live data from the Star Wars API! Here is the code that we really care about:
 
@@ -224,11 +224,11 @@ Now that we know how to get the data we need, let's get our codepen set up with 
 ### Bootstrap
 Next the the HTML window, you'll see a gear icon:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.31.33-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.31.33-PM.png)
 
 Click it, then click "CSS" in the window that pops up. Scroll down to the search bar and type in "Bootstrap" and click `twitter-bootstrap`:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.32.55-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.32.55-PM.png)
 
 Bootstrap is a CSS framework that will help our page look pretty. Since this isn't a lesson on Bootstrap, we're not going to dive into it, but you can read more about it via it's docs here: [Bootstrap](https://getbootstrap.com/).
 
@@ -237,7 +237,7 @@ We've now successfully added the Bootstrap CSS to our project.
 ### jQuery
 Just as Bootstrap will help us with CSS, [jQuery](https://jquery.com/) will help us with JavaScript. To add jQuery, again click the "gear" icon next to the HTML window and select the "JavaScript" tab. Scroll down to the search bar and type in "jquery" and add it!
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.41.27-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-3.41.27-PM.png)
 
 ## Our HTML
 For the sake of time, we're going to copy/paste our HTML. This isn't ideal, but it's life. Add the following to your HTML section:
@@ -337,11 +337,11 @@ fetch();
 
 If we now click "console" at the bottom of the pen:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-4.16.25-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-4.16.25-PM.png)
 
 You should see the following:
 
-![img](https://www.projectshift.io/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-4.17.02-PM.png)
+![img](https://www.projectshift.info/wp-content/uploads/2018/09/Screen-Shot-2018-09-17-at-4.17.02-PM.png)
 
 This is our data! Sweet!
 
