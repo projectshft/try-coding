@@ -1,9 +1,11 @@
 # Intro to CSS
 
 ## What is CSS?
+
 CSS stands for "cascading style sheets". It's essentially the "skin" on top of our HTML structure. It's the colors, the formatting, the fonts, etc of our web pages.
 
 For this lesson, we'll primarily look at:
+
 - How to select HTML elements with CSS and what specificity means
 - The different CSS "positions"
 
@@ -130,7 +132,7 @@ Attribute selectors are handy when you want to select an element that has a part
 /* All elements with the attribute "data-car"
    with the exact value "tesla" are given a red
    background color */
-[data-car='tesla'] {
+[data-car="tesla"] {
   background-color: red;
 }
 ```
@@ -297,6 +299,7 @@ nav ul {
 ```
 
 ## 5. Web Fonts
+
 We won't go into great detail here, but we'll want to be able to add some cool fonts to this project. We'll do this using Google Fonts. In Codepen, it will look a bit different.
 
 First, click the gear icon next to the HTML panel in Codepen:
@@ -352,5 +355,8 @@ For our large image, we'll use the `background-image` property. Add the followin
 
 A background-image can have `background-repeat`, `background-attachment` and `background-position` properties. We defined all of those, but with shorthand. In other words, we didn't want our image to repeat, we want it centered and fixed. In addition, we used `background-size: cover` to be sure that the entire image is displayed.
 
-### Conclusion
+---
+
+## Conclusion
+
 Okay, so this isn't a _complete_ website, but we're only scratching the surface on HTML and CSS today! This is a good enough foundation that we won't be completely lost when we build our Star Wars app this afternoon.
