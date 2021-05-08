@@ -302,9 +302,7 @@ nav ul {
 
 We won't go into great detail here, but we'll want to be able to add some cool fonts to this project. We'll do this using Google Fonts. In Codepen, it will look a bit different.
 
-First, click the gear icon next to the HTML panel in Codepen:
-
-![img](https://www.projectshift.info/wp-content/uploads/2020/02/Screen-Shot-2020-02-08-at-6.12.21-AM.png)
+First, click the gear icon next to the HTML panel in Codepen.
 
 Next, inside the text panel called "`Stuff for <head>`", paste the following:
 
@@ -347,7 +345,7 @@ For our large image, we'll use the `background-image` property. Add the followin
 
 ```CSS
 .hero {
-  background: url(https://www.projectshift.info/wp-content/uploads/2017/12/TIS4202Panorama_hdr_tonemapped2013IceFactoryATC-Scott_Faber_Photography.jpg) no-repeat center fixed;
+  background: url(https://i.pinimg.com/originals/9c/ac/81/9cac812b9c7637c4d0c26f896b261131.jpg) no-repeat center fixed;
   background-size: cover;
   height: 700px;
 }
